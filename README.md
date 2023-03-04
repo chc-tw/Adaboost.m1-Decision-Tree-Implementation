@@ -1,6 +1,9 @@
 # 2022-fall-Intro_of_ML-TermProject
 In this project, I need to implement the decision tree from scratch for different dataset.
 
+## Data Preprocessing
+I clean the outlier in the dataset and use **knn** imputation to fill up the missing values.
+
 ## First version
 I choose the **infomation gain** (IG) as the feature to sperate the dataset into two leaves in nodes. In addition, I use pre-prunning to avoid the tree be overfitting.
 
